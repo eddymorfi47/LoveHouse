@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eddiemartnez.app.lovehouse.activities.social">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/principal">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Visitanos en nuestras Redes Sociales."
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:background="@color/colorblacktrans"/>
+
+        <Button
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:background="@drawable/fa"
+            android:onClick="fa"/>
+
+        <Button
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/wh"
+            android:onClick="wa"/>
+
+        <Button
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:background="@drawable/yt"
+            android:onClick="yt"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

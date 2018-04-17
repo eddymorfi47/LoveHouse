@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#ffffff</color>
+    <color name="colorwaterblue">#00BFFF</color>
+    <color name="colorwaterbluetrans">#4000BFFF</color>
+    <color name="colorgray">#A9A9A9</color>
+    <color name="colorblacktrans">#40000000</color>
+    <color name="prussianbluekeyla">#003366</color>
+    <color name="phtalobluekeyla">#3399cc</color>
+    <color name="skybluekeyla">#33ccff</color>
+    <color name="marinebluekeyla">#0099cc</color>
+    <color name="warmgraykeyla">#cccccc</color>
+    <color name="crema">#f9e7be</color>
+</resources>

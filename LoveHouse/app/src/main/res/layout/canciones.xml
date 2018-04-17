@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eddiemartnez.app.lovehouse.activities.canciones">
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/canciones"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@color/colorblacktrans"
+        android:text="Semana Antepasada"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@color/colorblacktrans"
+        android:text="Semana Pasada"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@color/colorblacktrans"
+        android:text="Semana Actual"
+        android:textColor="@android:color/background_light" />
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

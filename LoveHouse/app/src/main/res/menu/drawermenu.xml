@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/pray"
+        android:title="Pedidos de Oración."
+        android:icon="@drawable/pray" />
+    <item android:id="@+id/lyrics"
+        android:title="Letras de canciones."
+        android:icon="@drawable/lyrics"/>
+    <item android:id="@+id/verse"
+        android:title="Versículo Diario."
+        android:icon="@drawable/bible"/>
+    <item android:id="@+id/social"
+        android:title="Social."
+        android:icon="@drawable/social"/>
+    <item android:id="@+id/about"
+        android:title="Acerca De."
+        android:icon="@drawable/about"/>
+    <item android:id="@+id/userscontrol"
+        android:title="Control de Usuarios."
+        android:icon="@drawable/user"/>
+
+</menu>

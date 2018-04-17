@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LoveHouse</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="previa">previa</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

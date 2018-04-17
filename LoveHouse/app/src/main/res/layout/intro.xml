@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eddiemartnez.app.lovehouse.activities.intro">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/usuarioingresar"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="280dp"
+            android:hint="Usuario"
+            android:textAlignment="center" />
+        <EditText
+            android:id="@+id/contrasennaingresar"
+            android:layout_width="340dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:hint="Contraseña"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorblacktrans"
+            android:text="Ingresar"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:onClick="onClickIngresar"/>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorblacktrans"
+            android:text="Registrar"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:onClick="onClickRegistrar"/>
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
